@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles1.css">
+</head>
+<body style="background-color:lightblue;" id="background">
+<div class="container">
+<div class="teen">
+<ul>
+<li><a href="https://www.google.co.in/search?q=html&oq=html&aqs=chrome..69i57j69i60l3j0l2.2092j0j1&sourceid=chrome&ie=UTF-8">HTML</a></li>
+<li><a href="https://www.google.co.in/search?q=css&oq=css&aqs=chrome..69i57j69i60l3j0l2.2479j0j1&sourceid=chrome&ie=UTF-8">CSS</a></li>
+<li><a href="https://www.google.co.in/search?q=javascript&oq=Java&aqs=chrome.4.69i57j69i61l3j0l2.44024j0j1&sourceid=chrome&ie=UTF-8">JAVASCRIPT</a></li>
+<li><a href="https://www.google.co.in/search?ei=EEOaWrKNKoTy8QXp3bvQBQ&q=pyyhon&oq=pyyhon&gs_l=psy-ab.3..0i10k1l10.2244.7314.0.8339.11.11.0.0.0.0.232.2224.0j6j5.11.0....0...1c.1.64.psy-ab..0.11.2221...0j0i131k1.0.wP0vO5vzfLo">PYTHON</a></li>
+<li><a href="https://www.google.co.in/search?q=boostrap&oq=boostrap&aqs=chrome..69i57j0l5.5759j0j9&sourceid=chrome&ie=UTF-8">BOOSTRAP</a></li>
+</ul>
+</div>
+</div>
+<div id="nav">
+<p class="hello" id="demo">Be the change you wish to see</p>
+<p class="lv" id="demo1">Mahatma Gandhi</p>
+<input type="button" name="name" value="Kuch aur" onclick="myFun()">
+</div>
+
+<script type="text/javascript">
+      var x =["Social progress can be measured by the social position of the female sex.","I like the religion that teaches liberty, equality and fraternity.","If you tremble with indignation at every injustice then you are a comrade of mine.","Teaching is a very noble profession that shapes the character, caliber, and future of an individual. If the people remember me as a good teacher, that will be the biggest honour for me."];
+     var writer =["Karl Marx","B. R. Ambedkar","Ernesto Che Guevara","Abdul Kalams"];
+    var color =["Red","blue","yellow","lightgreen"];
+    var image =["images/butterfly1.jpeg","images/water1.jpeg","images/turtle.jpeg","images/flower.jpeg","images/water.jpeg"];
+      var i=0;
+   function myFun(){
+    i += 1;
+    z = i % x.length;
+    y = i % image.length;
+  
+    document.getElementById("demo").innerHTML = x[z];
+    document.getElementById("demo1").innerHTML =writer[z];
+    document.getElementById("background").style.backgroundColor = color[z];
+    document.getElementById("nav").style.backgroundImage = "url(" + image[y] +")";
+    
+}
+
+  
+ 
+</script>
+</body>
+</html>

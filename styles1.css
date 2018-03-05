@@ -1,0 +1,41 @@
+.teen{
+	width: 100%;
+	height: 77px;
+	border:1px solid black;
+	background-color: gray;
+
+}
+ul{
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+	margin-top: 30px;
+}
+#nav{
+	width: 636px;
+	height: 396px;
+	border:1px solid black;
+	margin: auto;
+	margin-top: 56px;
+	background-image:url(images/lv2.jpeg);
+    background-repeat: no-repeat;
+        background-size: cover;
+
+}
+input{
+	padding: 10px 20px;
+	margin-top: 18px;
+    margin-left: 270px;
+    padding: 9px;
+    width: 108px;
+}
+.hello{
+	text-align: center;
+	margin-top: 37px;
+	font-size: 35px;
+}
+.lv{
+    font-size: 20px;
+    margin-left: 480px;
+}
+}
